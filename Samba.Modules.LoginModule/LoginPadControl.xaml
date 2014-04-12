@@ -15,8 +15,9 @@
             </Setter>
         </Style>
         <LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
-            <GradientStop Color="#FFB9EFA9" Offset="0" />
-            <GradientStop Color="#FF288D09" Offset="1" />
+            <GradientStop Color="Gray" Offset="0.005" />
+            <GradientStop Color="WhiteSmoke" Offset="0.5" />
+            <GradientStop Color="Black" Offset="0.98" />
         </LinearGradientBrush>
         <SolidColorBrush Color="#B7707070" x:Key="ButtonNormalBorder" />
         <Style x:Key="GreenButtonStyle" TargetType="{x:Type Button}">
@@ -87,8 +88,9 @@
             <Setter Property="Background">
                 <Setter.Value>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="#FFFBE0A3" Offset="0" />
-                        <GradientStop Color="#FFD24D00" Offset="1" />
+                        <GradientStop Color="Green" Offset=".001" />                        
+                        <GradientStop Color="WhiteSmoke" Offset="0.7" />
+                        <GradientStop Color="Orange" Offset=".98" />
                     </LinearGradientBrush>
                 </Setter.Value>
             </Setter>
@@ -186,7 +188,7 @@
         <Button Content="9" Grid.Row="3" Grid.Column="2" Margin="3" Style="{DynamicResource GreenButtonStyle}"
              Click="Button_Click_9" />
         <Button Content="{LocText Clear}" Grid.Row="4"
-             Grid.Column="0" Margin="3" Style="{DynamicResource GreenButtonStyle}" Click="Button_Click_11" />
+             Grid.Column="0" Margin="3" Style="{DynamicResource SubmitButtonStyle}" Click="Button_Click_11" />
         <Button Content="0" Grid.Row="4" Grid.Column="1" Margin="3" Style="{DynamicResource GreenButtonStyle}"
              Click="Button_Click_10" />
         <Button Content="{LocText Login}" Grid.Row="4" Focusable="False"

@@ -32,7 +32,7 @@ namespace Samba.Modules.LoginModule
             set { LocalSettings.LogoPath = value; }
         }
 
-        public string AppLabel { get { return "SAMBA POS " + LocalSettings.AppVersion + " - " + GetDatabaseLabel(); } }
+        public string AppLabel { get { return "Exel POS " + LocalSettings.AppVersion + " - " + GetDatabaseLabel(); } }
         public string AdminPasswordHint { get { return GetAdminPasswordHint(); } }
         public string SqlHint { get { return GetSqlHint(); } }
 

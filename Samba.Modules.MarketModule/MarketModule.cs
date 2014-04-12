@@ -43,7 +43,7 @@ namespace Samba.Modules.MarketModule
         {
             base.OnNavigate(obj);
             _marketModuleViewModel.ActiveUrl = "about:blank";
-            _marketModuleViewModel.ActiveUrl = "http://www.sambamarket.com/";
+            _marketModuleViewModel.ActiveUrl = "http://192.168.0.249/";
         }
 
         public override object GetVisibleView()
